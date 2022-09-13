@@ -1,7 +1,6 @@
-package Giriş;
 import java.util.Scanner;
 
-public class Main {
+public class GradeAvarage {
     public static void main(String[] args){
         //Değişkenleri oluşturduk
         int mat, fizik, kimya, turkce, tarih, muzik;
@@ -29,4 +28,8 @@ public class Main {
 
     }
 }
+
+
+
+
 
