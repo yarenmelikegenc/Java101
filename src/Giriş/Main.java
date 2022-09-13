@@ -26,6 +26,7 @@ public class Main {
         String sonuc;
         sonuc = (ortalama > 60) ? "Sınıfı geçti" : "Sınıfta Kaldı";
         System.out.println("Ortalamanız: "+ortalama+"\nGeçme Durumu: "+sonuc);
+
     }
 }
 
