@@ -5,20 +5,20 @@ public class GradeAvarage {
         //Değişkenleri oluşturduk
         int mat, fizik, kimya, turkce, tarih, muzik;
         //Scanner sınıfımızı tanımladık
-        Scanner inp = new Scanner(System.in);
+        Scanner input =new Scanner(System.in);
         //Kullanıcıdan değer alalım.
         System.out.print("Matematik notunuzu giriniz:");
-        mat= inp.nextInt();
+        mat= input.nextInt();
         System.out.print("Fizik notunuzu giriniz:");
-        fizik= inp.nextInt();
+        fizik= input.nextInt();
         System.out.print("Kimya notunuzu giriniz:");
-        kimya= inp.nextInt();
+        kimya= input.nextInt();
         System.out.print("Türkçe notunuzu giriniz:");
-        turkce= inp.nextInt();
+        turkce= input.nextInt();
         System.out.print("Tarih notunuzu giriniz:");
-        tarih= inp.nextInt();
+        tarih= input.nextInt();
         System.out.print("Müzik notunuzu giriniz:");
-        muzik= inp.nextInt();
+        muzik= input.nextInt();
 
         double ortalama= (mat+fizik+kimya+tarih+turkce+muzik)/6;
         System.out.println(ortalama);
