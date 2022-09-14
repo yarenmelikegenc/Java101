@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KdvCalculation {
+public class KdvCalculator {
     public static void main(String[] args) {
         //Değişkenleri Oluşturalım
         double ucret, kdvOran = 0.18;
