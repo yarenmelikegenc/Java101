@@ -9,7 +9,7 @@ public class HipotenüsCalculator {
         birinciKenar = input.nextDouble();
         System.out.println("İkinci kenarı giriniz:");
         ikinciKenar = input.nextDouble();
-        hipotenüs = (birinciKenar*birinciKenar) + (ikinciKenar*ikinciKenar);
+        hipotenüs =Math.sqrt((birinciKenar * birinciKenar) + (ikinciKenar * ikinciKenar));
         System.out.println("Hipotenüs: "+ hipotenüs);
     }
 
