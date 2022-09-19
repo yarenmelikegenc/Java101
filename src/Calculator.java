@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator {
     public static void main(String[] args) {
         int secim, sayi1, sayi2;
         Scanner input= new Scanner(System.in);
